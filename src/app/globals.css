@@ -1,27 +1,58 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@import "tailwindcss/components";
+@import "../components/Header/style.css";
 
-@media (prefers-color-scheme: dark) {
+@import "tailwindcss/utilities";
+
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    /* colors */
+    --hue: 0;
+    --sat: 0%;
+    --color-dark-1: hsl(var(--hue), var(--sat), 0%); /* title-color-dark */
+    --color-dark-2: hsl(var(--hue), var(--sat), 20%); /* title-color */
+    --color-dark-3: hsl(var(--hue), var(--sat), 46%); /* text-color */
+    --color-light-1: hsl(var(--hue), var(--sat), 98%); /* body-color */
+    --color-container: #ffffff;
+
+    /* font-size */
+    --text-large: 2.75rem; /* big */
+    --text-h1: 1.5rem; /* h1 */
+    --text-h2: 1.25rem; /* h2 */
+    --text-h2: 1rem; /* h3 */
+    --text-body-1: 0.938rem; /* normal */
+    --text-body-2: 0.813rem; /* small */
+    --text-body-3: 0.75rem; /* smaller */
+    --text-body-4: 0.625rem; /* tiny */
+
+    /* z-index */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+
+    /* header */
+    --header-height: 3rem;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply text-dark-1 font-semibold;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer components {
+  .container {
+    max-width: 968px;
+  }
+  .sectiion {
+    @apply pt-24 pb-8;
+  }
+  .setion-title {
+    @apply text-h1 text-dark-1 text-center;
+  }
+  .section-subtitle {
+    @apply block text-body-2 mb-16 text-center;
+  }
 }

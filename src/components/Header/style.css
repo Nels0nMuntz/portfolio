@@ -1,0 +1,8 @@
+@layer components {
+  .nav-menu {
+    @apply fixed -bottom-full left-0 w-full pt-8 pb-16 px-1 xs:px-6 bg-light-1 shadow-[0_-1px_4px_rgba(0,0,0,0.15)] rounded-t-3xl duration-300 md:static md:bg-none md:p-0 md:shadow-none;
+  }
+  .nav-menu.visible {
+    @apply bottom-0;
+  }
+}

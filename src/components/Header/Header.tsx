@@ -1,13 +1,20 @@
 "use client";
 
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import Link from "next/link";
 import NavLink from "./components/NavLink";
 import { Button } from "@/components/ui/button";
 
 export default function Header() {
   const [menuVisible, setMenuVisible] = React.useState(false);
+  const homeLinkRef = useRef<HTMLAnchorElement | null>(null);
   const openMenu = () => setMenuVisible(true);
+  useEffect(() => {
+    if (menuVisible && homeLinkRef) {
+      homeLinkRef.current?.focus();
+    }
+  }, [menuVisible, homeLinkRef]);
+
   const closeMenu = () => setMenuVisible(false);
   return (
     <header className="w-full fixed bottom-0 md:bottom-auto md:top-0 left-0 z-fixed">
@@ -15,10 +22,14 @@ export default function Header() {
         <Link href="#" className="font-medium text-dark-2">
           Eugene
         </Link>
-        <div className={["nav-menu", menuVisible ? "visible" : ""].join(" ")}>
+        <div
+          className={["nav-menu", menuVisible ? "visible" : ""].join(" ")}
+          hidden={!menuVisible}
+          aria-hidden={!menuVisible}
+        >
           <ul className="grid grid-cols-3 gap-0 xs:gap-8 md:flex md:items-center md:justify-end md:gap-8">
             <li className="nav-item">
-              <NavLink href="#home" isActive={true}>
+              <NavLink href="#home" isActive={true} ref={homeLinkRef}>
                 <i className="uil uil-estate text-lg md:hidden" />
                 Home
               </NavLink>

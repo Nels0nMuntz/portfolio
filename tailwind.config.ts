@@ -13,7 +13,7 @@ const config: Config = {
         "dark-2": "var(--color-dark-2)",
         "dark-3": "var(--color-dark-3)",
         "light-1": "var(--color-light-1)",
-        container: "var(--color-container)",
+        "light-2": "var(--color-light-2)",
       },
       fontFamily: {
         poppins: ["var(--font-poppins)"],
@@ -26,6 +26,7 @@ const config: Config = {
         "body-1": "var(--text-body-1)",
         "body-2": "var(--text-body-2)",
         "body-3": "var(--text-body-3)",
+        "body-4": "var(--text-body-4)",
       },
       zIndex: {
         tooltip: "var(--z-tooltip)",
@@ -41,13 +42,38 @@ const config: Config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "profile-wave": {
+          "0%": {
+            borderRadius: "60% 40% 30% 70%/60% 30% 70% 40%",
+          },
+          "50%": {
+            borderRadius: "30% 60% 70% 40%/50% 60% 30% 60%",
+          },
+          "100%": {
+            borderRadius: "60% 40% 30% 70%/60% 30% 70% 40%",
+          },
+        },
+        "scroll-down": {
+          "0%": {
+            transform: "translateY(0)",
+          },
+          "30%": {
+            transform: "translateY(3.75rem)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        profile: "profile-wave 8s ease-in-out infinite 1s",
+        scroll: "scroll-down 2s ease infinite",
       },
       screens: {
         xs: "375px",
+        xm: "992px",
+      },
+      backgroundImage: {
+        profile: "url(../../public/profile.jpg)",
       },
     },
     container: {

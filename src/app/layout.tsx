@@ -12,6 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={poppins.variable}>
       <head>
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
       </head>
       <body className="font-poppins text-body-1 text-dark-3 bg-light-1">{children}</body>
     </html>

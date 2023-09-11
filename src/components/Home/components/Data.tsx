@@ -64,7 +64,7 @@ export default function Data() {
         I&apos;m creative designer based in New York, and I&apos;m very passionate and dedicated to
         my work.
       </p>
-      <Button>
+      <Button asChild>
         <Link href="#contact" className="flex items-center  gap-2">
           <span>Say Hello</span>
           <svg

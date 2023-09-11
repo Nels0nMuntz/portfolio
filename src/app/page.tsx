@@ -1,14 +1,28 @@
 import React from "react";
-import { About, Header, Home as HomeSection } from "@/components";
+import {
+  About,
+  Contact,
+  Header,
+  Home as HomeSection,
+  Qualification,
+  ScrollUp,
+  Skills,
+} from "@/components";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <main className="md:mt-[var(--header-height)]">
+      <main className="mb-[var(--header-height)] md:mb-0 md:mt-[var(--header-height)]">
         <HomeSection />
         <About />
+        <Skills />
+        <Qualification />
+        <Contact />
       </main>
+      <Footer />
+      <ScrollUp />
     </>
   );
 }

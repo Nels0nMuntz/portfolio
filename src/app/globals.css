@@ -1,7 +1,6 @@
 @import "tailwindcss/base";
 
 @import "tailwindcss/components";
-@import "../components/Header/style.css";
 
 @import "tailwindcss/utilities";
 
@@ -10,21 +9,21 @@
     /* colors */
     --hue: 0;
     --sat: 0%;
-    --color-dark-1: hsl(var(--hue), var(--sat), 0%); /* title-color-dark */
-    --color-dark-2: hsl(var(--hue), var(--sat), 20%); /* title-color */
-    --color-dark-3: hsl(var(--hue), var(--sat), 46%); /* text-color */
-    --color-light-1: hsl(var(--hue), var(--sat), 98%); /* body-color */
-    --color-light-2: hsl(var(--hue), var(--sat), 100%); /* container-color */
+    --color-dark-1: hsl(var(--hue), var(--sat), 0%);
+    --color-dark-2: hsl(var(--hue), var(--sat), 20%);
+    --color-dark-3: hsl(var(--hue), var(--sat), 46%);
+    --color-light-1: hsl(var(--hue), var(--sat), 98%);
+    --color-light-2: hsl(var(--hue), var(--sat), 100%);
 
     /* font-size */
-    --text-large: 2.75rem; /* big */
-    --text-h1: 1.5rem; /* h1 */
-    --text-h2: 1.25rem; /* h2 */
-    --text-h2: 1rem; /* h3 */
-    --text-body-1: 0.938rem; /* normal */
-    --text-body-2: 0.813rem; /* small */
-    --text-body-3: 0.75rem; /* smaller */
-    --text-body-4: 0.625rem; /* tiny */
+    --text-large: 2.75rem;
+    --text-h1: 1.5rem;
+    --text-h2: 1.25rem;
+    --text-h2: 1rem;
+    --text-body-1: 0.938rem;
+    --text-body-2: 0.813rem;
+    --text-body-3: 0.75rem;
+    --text-body-4: 0.625rem;
 
     /* z-index */
     --z-tooltip: 10;
@@ -33,6 +32,14 @@
 
     /* header */
     --header-height: 3rem;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply font-poppins text-body-1 text-dark-3 bg-light-1;
   }
 
   h1,
@@ -49,10 +56,10 @@
   .section {
     @apply pt-8 md:pt-24 pb-16 md:pb-8;
   }
-  .setion-title {
+  .section-title {
     @apply text-h1 text-dark-1 text-center;
   }
   .section-subtitle {
-    @apply block text-body-2 mb-16 text-center;
+    @apply block text-body-2 mb-12 md:mb-16 text-center;
   }
 }

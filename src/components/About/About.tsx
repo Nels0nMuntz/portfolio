@@ -7,18 +7,18 @@ export default function About() {
   return (
     <section id="about" className="section">
       <div className="container">
-        <h2 className="setion-title">About</h2>
+        <h2 className="section-title">About</h2>
         <span className="section-subtitle">My introduction</span>
-        <div className="grid grid-cols-2 items-center gap-16">
+        <div className="grid grid-cols-1 xm:grid-cols-2 items-center gap-10 xm:gap-16">
           <Image
-            width={160}
-            height={160}
+            width={350}
+            height={350}
             src="/about.jpg"
-            className="w-[350px] rounded-3xl justify-self-center"
+            className="w-56 xm:w-[350px] rounded-3xl justify-self-center"
             alt="photo"
           />
-          <div className="">
-            <div className="grid grid-cols-[repeat(3,_140px)] gap-2 mb-8">
+          <div className="text-center xm:text-left">
+            <div className="grid grid-cols-1 xs:grid-cols-3 sm:grid-cols-[repeat(3,_140px)] gap-2 justify-center xm:justify-start mb-8">
               <InfoItem
                 title="Experience"
                 subtitle="8 Years Working"
@@ -35,7 +35,7 @@ export default function About() {
                 icon={<i className="bx bx-support" />}
               />
             </div>
-            <p>
+            <p className="max-w-2xl mx-auto mb-8 xm:mb-10 text-center xm:text-left">
               Frontend developer, I create web pages with UI / UX user interface, I have years of
               experience and many clients are happy with the projects carried out.
             </p>

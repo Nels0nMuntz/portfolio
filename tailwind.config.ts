@@ -75,6 +75,9 @@ const config: Config = {
       backgroundImage: {
         profile: "url(../../public/profile.jpg)",
       },
+      boxShadow: {
+        header: "0 -1px 4px rgba(0, 0, 0, 0.15)",
+      },
     },
     container: {
       center: true,

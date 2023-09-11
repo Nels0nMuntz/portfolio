@@ -40,7 +40,7 @@ export default function About() {
               experience and many clients are happy with the projects carried out.
             </p>
             <Button asChild>
-              <Link href="/cv.pdf" download="" className="gap-2">
+              <Link href="/CV.pdf" download="" target="_blank" className="gap-2">
                 <span>Download CV</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

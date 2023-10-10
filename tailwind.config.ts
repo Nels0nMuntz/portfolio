@@ -70,13 +70,22 @@ const config: Config = {
       },
       screens: {
         xs: "375px",
+        "2sm": "550px",
         xm: "992px",
       },
       backgroundImage: {
         profile: "url(../../public/profile.jpg)",
+        modal: "linear-gradient(180deg,#f1f3f5,#fff)",
+        label: "url(../../public/rect.svg)",
       },
       boxShadow: {
         header: "0 -1px 4px rgba(0, 0, 0, 0.15)",
+      },
+      borderColor: {
+        primary: "rgba(0, 0, 0, 0.1)",
+      },
+      maxWidth: {
+        modal: "var(--modal-width)",
       },
     },
     container: {

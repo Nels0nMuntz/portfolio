@@ -10,7 +10,7 @@ interface Props {
 
 export default function ContactCard({ title, subtitle, icon, linkText, linkHref }: Props) {
   return (
-    <div className="flex flex-col p-4 text-center bg-light-2 border border-[rgba(0,_0,_0,_0.1)] rounded-xl">
+    <div className="flex flex-col p-4 text-center bg-light-2 border border-primary rounded-xl">
       <span className="block mb-1 text-2xl text-dark-2">{icon}</span>
       <h3 className="text-body-2 font-medium">{title}</h3>
       <span className="block mb-3 text-body-2">{subtitle}</span>

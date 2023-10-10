@@ -1,6 +1,6 @@
 import Image from "next/image";
 import InfoItem from "./components/InfoItem";
-import Button from "../Button/Button";
+import { Button } from "@/components";
 import Link from "next/link";
 
 export default function About() {
@@ -29,11 +29,7 @@ export default function About() {
                 subtitle="48 + Projects"
                 icon={<i className="bx bx-briefcase-alt" />}
               />
-              <InfoItem
-                title="Support"
-                subtitle="Online 24/7"
-                icon={<i className="bx bx-support" />}
-              />
+              <InfoItem title="Passion" subtitle="100%" icon={<i className="bx bxs-hot" />} />
             </div>
             <p className="max-w-2xl mx-auto mb-8 xm:mb-10 text-center xm:text-left">
               Frontend developer, I create web pages with UI / UX user interface, I have years of

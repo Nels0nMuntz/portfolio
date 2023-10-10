@@ -10,7 +10,7 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-[repeat(2,_max-content)] justify-center gap-12 xm:gap-24 pb-12">
           <div>
             <h3 className="mb-6 text-h3 font-medium text-center">Talk to me</h3>
-            <div className="w-full sm:w-[300px] mx-auto md:mx-0 flex flex-col gap-4">
+            <div className="w-full sm:w-[360px] mx-auto md:mx-0 flex flex-col gap-4">
               <ContactCard
                 title="Email"
                 subtitle="tchekerdes.vgen@ukr.net"

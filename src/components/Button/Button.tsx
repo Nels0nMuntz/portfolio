@@ -1,4 +1,4 @@
-import { Button as SButton, ButtonProps } from "../ui/button";
+import { Button as SButton, ButtonProps } from "@/components/ui/button";
 
 interface Props extends ButtonProps {}
 

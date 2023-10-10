@@ -21,7 +21,7 @@ export default function Contact() {
               <ContactCard
                 title="Telegram"
                 subtitle="t.me/ev6enij"
-                icon={<i className="bx bxl-messenger"></i>}
+                icon={<i className="bx bxl-telegram"></i>}
                 linkText="Write me"
                 linkHref="https://t.me/ev6enij"
               />

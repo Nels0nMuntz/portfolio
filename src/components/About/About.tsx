@@ -9,34 +9,32 @@ export default function About() {
       <div className="container">
         <h2 className="section-title">About</h2>
         <span className="section-subtitle">My introduction</span>
-        <div className="grid grid-cols-1 xm:grid-cols-2 items-center gap-10 xm:gap-16">
-          <Image
-            width={350}
-            height={350}
-            src="/about.jpg"
-            className="w-56 xm:w-[350px] rounded-3xl justify-self-center"
-            alt="photo"
-          />
-          <div className="text-center xm:text-left">
-            <div className="grid grid-cols-1 xs:grid-cols-3 sm:grid-cols-[repeat(3,_140px)] gap-2 justify-center xm:justify-start mb-8">
+        <div className="">
+          <div className="flex flex-col justify-center text-center xm:text-left">
+            <p className="max-w-4xl mx-auto mb-8 xm:mb-10 text-center">
+              Hello, I&apos;m Eugene, a skilled and detail-oriented middle frontend developer with a
+              passion for creating visually appealing and user-friendly web applications. With a
+              strong foundation in technologies like HTML, CSS, JavaScript, React, Redux, Webpack. I
+              excel at translating design concepts into seamless and responsive user interfaces. I
+              enjoy tackling challenges and am always eager to explore innovative solutions to
+              enhance the user experience. Let&apos;s create exceptional digital experiences
+              together!
+            </p>
+            <div className="grid grid-cols-1 xs:grid-cols-3 sm:grid-cols-[repeat(3,_140px)] gap-2 justify-center mb-8">
               <InfoItem
                 title="Experience"
-                subtitle="8 Years Working"
+                subtitle="3 Years Working"
                 icon={<i className="bx bx-award" />}
               />
               <InfoItem
                 title="Completed"
-                subtitle="48 + Projects"
+                subtitle="8+ Projects"
                 icon={<i className="bx bx-briefcase-alt" />}
               />
               <InfoItem title="Passion" subtitle="100%" icon={<i className="bx bxs-hot" />} />
             </div>
-            <p className="max-w-2xl mx-auto mb-8 xm:mb-10 text-center xm:text-left">
-              Frontend developer, I create web pages with UI / UX user interface, I have years of
-              experience and many clients are happy with the projects carried out.
-            </p>
             <Button asChild>
-              <Link href="/CV.pdf" download="" target="_blank" className="gap-2">
+              <Link href="/CV.pdf" download="" target="_blank" className="self-center gap-2">
                 <span>Download CV</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

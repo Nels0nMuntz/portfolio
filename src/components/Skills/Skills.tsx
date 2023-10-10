@@ -11,13 +11,24 @@ export default function Skills() {
             <h3 className="text-body-1 font-medium text-center mb-6">Frontend development</h3>
             <div className="flex justify-center gap-10">
               <div className="flex flex-col items-start gap-4">
-                <SkillItem title="HTML" subtitle="Basic" />
+                <SkillItem title="HTML" subtitle="Advanced" />
                 <SkillItem title="CSS" subtitle="Advanced" />
-                <SkillItem title="JavaScript" subtitle="Intermediate" />
+                <SkillItem title="SASS/SCSS" subtitle="Intermediate" />
+                <SkillItem title="Bootstrap" subtitle="Intermediate" />
+                <SkillItem title="Tailwindcss" subtitle="Intermediate" />
               </div>
               <div className="flex flex-col items-start gap-4">
-                <SkillItem title="Bootstrap" subtitle="Intermediate" />
-                <SkillItem title="React" subtitle="Intermediate" />
+                <SkillItem title="React.js" subtitle="Advanced" />
+                <SkillItem title="Next.js" subtitle="Intermediate" />
+                <SkillItem title="Redux" subtitle="Advanced" />
+                <SkillItem title="MobX" subtitle="Intermediate" />
+                <SkillItem title="Material UI" subtitle="Advanced" />
+              </div>
+              <div className="flex flex-col items-start gap-4">
+                <SkillItem title="JavaScript" subtitle="Advanced" />
+                <SkillItem title="TypeScript" subtitle="Intermediate" />
+                <SkillItem title="Webpack" subtitle="Intermediate" />
+                <SkillItem title="Gulp" subtitle="Advanced" />
                 <SkillItem title="Git" subtitle="Intermediate" />
               </div>
             </div>

@@ -16,7 +16,7 @@ export default function QualificationItem({ position, title, subtitle, duration 
         {isRight && (
           <div>
             <span className="w-3 h-3 inline-block bg-dark-3 rounded-full"></span>
-            <div className="w-px h-full block group-last:hidden bg-dark-3 translate-x-[6px] -translate-y-[7px]"></div>
+            <div className="w-px h-full block bg-dark-3 translate-x-[6px] -translate-y-[7px]"></div>
           </div>
         )}
 
@@ -24,8 +24,7 @@ export default function QualificationItem({ position, title, subtitle, duration 
           <h3 className="text-body-1 font-medium">{title}</h3>
           <span className="inline-block text-body-2 mb-4">{subtitle}</span>
           <div className="text-body-2">
-            <i className="uil uil-calendar-alt"></i>
-            {duration}
+            <i className="uil uil-calendar-alt"></i> {duration}
           </div>
         </div>
 

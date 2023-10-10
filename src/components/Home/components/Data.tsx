@@ -61,8 +61,8 @@ export default function Data() {
         Frontend Developer
       </h2>
       <p className="mb-10 xm:mb-12">
-        I&apos;m creative designer based in New York, and I&apos;m very passionate and dedicated to
-        my work.
+        I&apos;m creative and detail-oriented frontend developer, and I&apos;m very passionate and
+        dedicated to my work.
       </p>
       <Button asChild>
         <Link href="#contact" className="flex items-center  gap-2">

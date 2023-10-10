@@ -74,7 +74,7 @@ const config: Config = {
         xm: "992px",
       },
       backgroundImage: {
-        profile: "url(../../public/profile.jpg)",
+        profile: "url(../../public/me.jfif)",
         modal: "linear-gradient(180deg,#f1f3f5,#fff)",
         label: "url(../../public/rect.svg)",
       },

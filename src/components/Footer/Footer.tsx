@@ -24,23 +24,23 @@ export default function Footer() {
         </ul>
         <div className="flex justify-center gap-5">
           <Link
-            href="https://www.instagram.com/"
+            href="https://t.me/ev6enij"
             className="inline-flex p-2 text-xl text-light-1 bg-dark-2 hover:bg-dark-1 rounded-lg"
             target="_blank"
           >
-            <i className="bx bxl-instagram"></i>
-            <span className="sr-only">instagram</span>
+            <i className="bx bxl-telegram"></i>
+            <span className="sr-only">telegram</span>
           </Link>
           <Link
-            href="https://dribbble.com/"
+            href="https://www.linkedin.com/in/evgeniy-chekerdes"
             className="inline-flex p-2 text-xl text-light-1 bg-dark-2 hover:bg-dark-1 rounded-lg"
             target="_blank"
           >
-            <i className="bx bxl-dribbble"></i>
+            <i className="bx bxl-linkedin"></i>
             <span className="sr-only">dribbble</span>
           </Link>
           <Link
-            href="https://github.com/"
+            href="https://github.com/Nels0nMuntz"
             className="inline-flex p-2 text-xl text-light-1 bg-dark-2 hover:bg-dark-1 rounded-lg"
             target="_blank"
           >

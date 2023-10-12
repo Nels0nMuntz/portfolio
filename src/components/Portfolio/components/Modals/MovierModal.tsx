@@ -23,18 +23,19 @@ export default function MovierModal() {
             />
             <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left order-1 md:order-none">
               <DialogHeading>Movier</DialogHeading>
-              <DialogDescription>
-                React client for TMDb.
-              </DialogDescription>
+              <DialogDescription>React client for TMDb.</DialogDescription>
               <DialogDesLink href="https://movier-web.netlify.app">Open live site</DialogDesLink>
             </div>
           </div>
           <div className="py-12 px-4 md:px-10 sm:text-base">
             <DialogDescription>
-              Movier is a web app for exploring movies and series. Implemented user authentication using the TMDB provider and credentials, searching and browsing movies, series and adding them to the watchlist. Made responsive user interface with React JS that provides users with a seamless experience across all devices.
+              Movier is a web app for exploring movies and series. Implemented user authentication
+              using the TMDB provider and credentials, searching and browsing movies, series and
+              adding them to the watchlist. Made responsive user interface with React JS that
+              provides users with a seamless experience across all devices.
             </DialogDescription>
             <DialogDescription>
-              Credentials: Username: J0lly, Password: VWXPTWOuSKtsPwo,
+              Credentials: Username: J0lly, Password: VWXPTWOuSKtsPwo
             </DialogDescription>
           </div>
           <div className="pt-20 pb-14 pl-4 md:pl-0 bg-[#F8F9F9]">

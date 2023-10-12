@@ -38,7 +38,7 @@ const works: Work[] = [
   {
     id: "chichat",
     title: "Chichat",
-    preview: "/movier/movier-preview.png",
+    preview: "/chichat/chichat-1.png",
     technologies: ["React", "Redux", "Material UI", "Firebase", "Express", "MongoDB", "WebSocket"],
     pet: true,
   },

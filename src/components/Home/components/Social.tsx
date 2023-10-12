@@ -6,7 +6,7 @@ export default function Social() {
     <div className="grid grid-cols-[max-content] gap-4">
       <Link href="https://t.me/ev6enij" target="_blank">
         <i className="uil uil-telegram-alt text-lg text-dark-2 hover:text-dark-1"></i>
-        <span className="sr-only">email</span>
+        <span className="sr-only">telegram</span>
       </Link>
       <Link href="https://www.linkedin.com/in/evgeniy-chekerdes" target="_blank">
         <i className="uil uil-linkedin-alt text-lg text-dark-2 hover:text-dark-1"></i>

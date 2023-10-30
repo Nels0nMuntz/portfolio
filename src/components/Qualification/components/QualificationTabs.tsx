@@ -30,13 +30,13 @@ export default function QualificationTabs() {
       <TabsContent value="exp">
         <QualificationItem
           title="Markup Developer"
-          subtitle="Anuitex"
+          subtitle="A-Development"
           duration="Oct 2020 - Nov 2021"
           position="left"
         />
         <QualificationItem
           title="Frontend Developer"
-          subtitle="Anuitex"
+          subtitle="A-Development"
           duration="Dec 2021 - present"
           position="right"
         />

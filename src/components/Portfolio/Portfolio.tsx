@@ -8,6 +8,7 @@ import EveModal from "./components/Modals/EveModal";
 import MCMModal from "./components/Modals/MCMModal";
 import MovierModal from "./components/Modals/MovierModal";
 import ChichatModal from "./components/Modals/ChichatModal";
+import QTalkModal from "./components/Modals/QTalkModal";
 
 const works: Work[] = [
   {
@@ -42,6 +43,22 @@ const works: Work[] = [
     technologies: ["React", "Redux", "Material UI", "Firebase", "Express", "MongoDB", "WebSocket"],
     pet: true,
   },
+  {
+    id: "qtalk",
+    title: "qTalk",
+    preview: "/qtalk/qtalk-preview.png",
+    technologies: [
+      "Next",
+      "React",
+      "React Query",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "NextAuth",
+      "Prisma",
+      "PostgreSQL",
+    ],
+    pet: true,
+  },
 ];
 
 export default function Portfolio() {
@@ -63,6 +80,7 @@ export default function Portfolio() {
       <MCMModal />
       <MovierModal />
       <ChichatModal />
+      <QTalkModal />
     </ModalsProvider>
   );
 }

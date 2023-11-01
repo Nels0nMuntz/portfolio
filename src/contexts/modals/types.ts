@@ -13,6 +13,7 @@ export interface ModalsState {
   mcm: ModalState;
   movier: ModalState;
   chichat: ModalState;
+  qtalk: ModalState;
 }
 
 export type ModalId = keyof ModalsState;

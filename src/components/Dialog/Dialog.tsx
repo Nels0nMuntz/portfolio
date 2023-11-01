@@ -16,7 +16,11 @@ export function DialogHeading({ children }: PropsWithChildren) {
 }
 
 export function DialogDescription({ children, className = "" }: PropsWithChildren & Props) {
-  return <p className={`max-w-2xl mx-auto md:ml-0 text-lg sm:text-xl mb-8 ${className}`}>{children}</p>;
+  return (
+    <div className={`max-w-2xl mx-auto md:ml-0 text-lg sm:text-xl mb-8 ${className}`}>
+      {children}
+    </div>
+  );
 }
 
 export function DialogDesLink({ href, variant, children }: DialogDesLinkProps) {

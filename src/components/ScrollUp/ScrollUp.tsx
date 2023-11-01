@@ -25,6 +25,7 @@ export default function ScrollUp() {
       data-state={visible ? "visible" : ""}
     >
       <i className="uil uil-arrow-up text-xl xm:text-2xl text-light-1"></i>
+      <span className="sr-only">scroll up</span>
     </Link>
   );
 }

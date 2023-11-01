@@ -36,7 +36,10 @@ const initialState: ModalsState = {
   },
   chichat: {
     isOpen: false,
-  }
+  },
+  qtalk: {
+    isOpen: false,
+  },
 };
 
 function modalReducer(state: ModalsState, action: ModalsAction): ModalsState {

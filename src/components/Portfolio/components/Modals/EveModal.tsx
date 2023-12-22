@@ -16,7 +16,7 @@ export default function EveModal() {
           <div className="flex flex-col items-center gap-8 sm:gap-16 px-4 md:px-10 pt-8 bg-modal">
             <div className="text-center">
               <DialogHeading>Eve Admin</DialogHeading>
-              <DialogDescription>
+              <DialogDescription className="text-left md:text-center">
                 Eve allows clients to measure vitals, such as blood pressure, heart rate, oxygen
                 saturation, disease risks and much more with only their smartphone and enables to
                 create data-driven care plans. Eve admin is used as a remote monitoring platform for
@@ -25,7 +25,7 @@ export default function EveModal() {
               </DialogDescription>
             </div>
             <Image src="/eve/eve-2.png" width={768} height={590} alt="preview" />
-            <DialogDescription className="text-center">
+            <DialogDescription className="text-left md:text-center ml-0 md:ml-auto">
               Implemented user authentication using Jwt Auth, data visualisation using various types
               of charts and tables with filtering, sorting and searching, import and export of data
               in XLS and CSV formats or manually

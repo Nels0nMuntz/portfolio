@@ -11,6 +11,7 @@ export interface ModalsState {
   ding: ModalState;
   eve: ModalState;
   mcm: ModalState;
+  raffle: ModalState;
   movier: ModalState;
   chichat: ModalState;
   qtalk: ModalState;

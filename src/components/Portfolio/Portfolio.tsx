@@ -9,6 +9,7 @@ import MCMModal from "./components/Modals/MCMModal";
 import MovierModal from "./components/Modals/MovierModal";
 import ChichatModal from "./components/Modals/ChichatModal";
 import QTalkModal from "./components/Modals/QTalkModal";
+import RaffleModal from "./components/Modals/RaffleModal";
 
 const works: Work[] = [
   {
@@ -16,6 +17,12 @@ const works: Work[] = [
     title: "Ding Ding Ding",
     preview: "/dingdingding/ddd-homepage.png",
     technologies: ["HTML", "CSS", "JS", "Gulp"],
+  },
+  {
+    id: "raffle",
+    title: "Raffle House",
+    preview: "/raffle/raffle-preview.png",
+    technologies: ["HTML", "CSS", "SCSS", "Material UI", "React"],
   },
   {
     id: "eve",
@@ -81,6 +88,7 @@ export default function Portfolio() {
       <MovierModal />
       <ChichatModal />
       <QTalkModal />
+      <RaffleModal />
     </ModalsProvider>
   );
 }

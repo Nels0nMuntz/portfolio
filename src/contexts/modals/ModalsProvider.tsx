@@ -31,6 +31,9 @@ const initialState: ModalsState = {
   mcm: {
     isOpen: false,
   },
+  raffle: {
+    isOpen: false,
+  },
   movier: {
     isOpen: false,
   },

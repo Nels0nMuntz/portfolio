@@ -15,6 +15,8 @@ export interface ModalsState {
   movier: ModalState;
   chichat: ModalState;
   qtalk: ModalState;
+  vichara: ModalState;
+  happyBooking: ModalState;
 }
 
 export type ModalId = keyof ModalsState;

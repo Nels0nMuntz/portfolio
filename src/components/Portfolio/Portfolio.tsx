@@ -10,6 +10,8 @@ import MovierModal from "./components/Modals/MovierModal";
 import ChichatModal from "./components/Modals/ChichatModal";
 import QTalkModal from "./components/Modals/QTalkModal";
 import RaffleModal from "./components/Modals/RaffleModal";
+import VicharaModal from "./components/Modals/VicharaModal";
+import HappyBookingModal from "./components/Modals/HappyBookingModal";
 
 const works: Work[] = [
   {
@@ -22,7 +24,19 @@ const works: Work[] = [
     id: "raffle",
     title: "Raffle House",
     preview: "/raffle/raffle-preview.png",
-    technologies: ["HTML", "CSS", "SCSS", "Material UI", "React"],
+    technologies: ["React", "CSS", "SCSS", "Material UI"],
+  },
+  {
+    id: "vichara",
+    title: "Vichara",
+    preview: "/vichara/vichara-preview.png",
+    technologies: ["HTML", "CSS", "Tailwind CSS", "GSAP", "JS", "Gulp"],
+  },
+  {
+    id: "happyBooking",
+    title: "Happy Booking",
+    preview: "/happy-booking/happy-booking-1.png",
+    technologies: ["HTML", "CSS", "JS"],
   },
   {
     id: "eve",
@@ -89,6 +103,8 @@ export default function Portfolio() {
       <ChichatModal />
       <QTalkModal />
       <RaffleModal />
+      <VicharaModal />
+      <HappyBookingModal />
     </ModalsProvider>
   );
 }

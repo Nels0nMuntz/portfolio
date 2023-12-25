@@ -28,7 +28,7 @@ export default function About() {
               />
               <InfoItem
                 title="Completed"
-                subtitle="8+ Projects"
+                subtitle="15+ Projects"
                 icon={<i className="bx bx-briefcase-alt" />}
               />
               <InfoItem title="Passion" subtitle="100%" icon={<i className="bx bxs-hot" />} />

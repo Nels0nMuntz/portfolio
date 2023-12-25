@@ -43,6 +43,12 @@ const initialState: ModalsState = {
   qtalk: {
     isOpen: false,
   },
+  vichara: {
+    isOpen: false,
+  },
+  happyBooking: {
+    isOpen: false,
+  },
 };
 
 function modalReducer(state: ModalsState, action: ModalsAction): ModalsState {

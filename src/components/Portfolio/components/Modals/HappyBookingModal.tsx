@@ -26,8 +26,8 @@ export default function HappyBookingModal() {
               <DialogHeading>Happy Booking</DialogHeading>
               <DialogDescription>
                 Happybooking is a cloud based hotel booking system that makes the most of every
-                minute. The project is designed to organize clients' schedules, offering an
-                efficient and intelligent booking solution to optimize their time effectively.
+                minute. The project is designed to organize clients schedules, offering an efficient
+                and intelligent booking solution to optimize their time effectively.
               </DialogDescription>
               <DialogDesLink href="https://admin.happybooking.se/">Open live site</DialogDesLink>
             </div>

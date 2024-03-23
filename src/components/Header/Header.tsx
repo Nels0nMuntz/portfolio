@@ -69,6 +69,7 @@ export default function Header() {
                     isActive={activeLink === href}
                     onClick={() => onClickNavLink(href)}
                     ref={(node) => navLinks.current.push(node)}
+
                   >
                     <i className={`uil ${iconClassName} text-lg md:hidden`} />
                     {name}

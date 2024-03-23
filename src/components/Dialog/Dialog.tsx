@@ -11,8 +11,10 @@ interface DialogDesLinkProps extends PropsWithChildren {
   variant?: "link" | "default" | "destructive" | "outline" | "secondary" | "ghost";
 }
 
-export function DialogHeading({ children }: PropsWithChildren) {
-  return <h3 className="text-4xl sm:text-5xl font-medium text-dark-2 mb-6">{children}</h3>;
+export function DialogHeading({ children, className = "" }: PropsWithChildren & Props) {
+  return (
+    <h3 className={`text-4xl sm:text-5xl font-medium text-dark-2 mb-6 ${className}`}>{children}</h3>
+  );
 }
 
 export function DialogDescription({ children, className = "" }: PropsWithChildren & Props) {

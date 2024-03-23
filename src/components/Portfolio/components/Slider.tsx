@@ -1,18 +1,25 @@
 import { Swiper } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { PropsWithChildren } from "react";
+import { SwiperOptions } from "swiper/types";
 
-export default function Slider({ children }: PropsWithChildren) {
+interface Props extends PropsWithChildren {
+  autoplay?: SwiperOptions["autoplay"];
+}
+
+export default function Slider({ autoplay, children }: Props) {
   return (
     <Swiper
       spaceBetween={16}
       slidesPerView={1.35}
       centeredSlides={false}
       loop
-      autoplay={{
-        delay: 2000,
-        disableOnInteraction: false,
-      }}
+      autoplay={
+        autoplay || {
+          delay: 2000,
+          disableOnInteraction: false,
+        }
+      }
       modules={[Autoplay]}
       speed={700}
       breakpoints={{

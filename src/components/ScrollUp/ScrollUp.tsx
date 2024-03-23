@@ -18,11 +18,16 @@ export default function ScrollUp() {
       window.removeEventListener("scroll", onScroll);
     };
   }, []);
+  const handleClick: React.MouseEventHandler = (e) => {
+    e.preventDefault();
+    document.querySelector("#home")?.scrollIntoView();
+}
   return (
     <Link
       href="#home"
       className="fixed right-4 xs:right-6 xm:right-10 -bottom-1/4 px-[0.4rem] xm:px-2 py-1 bg-dark-2 hover:bg-dark-1 rounded-[0.4rem] shadow-md z-tooltip duration-300 data-[state=visible]:bottom-16 data-[state=visible]:md:bottom-12"
       data-state={visible ? "visible" : ""}
+      onClick={handleClick}
     >
       <i className="uil uil-arrow-up text-xl xm:text-2xl text-light-1"></i>
       <span className="sr-only">scroll up</span>

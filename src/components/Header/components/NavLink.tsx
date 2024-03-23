@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { PropsWithChildren, forwardRef } from "react";
 
 interface Props extends PropsWithChildren {
@@ -12,6 +11,8 @@ const NavLink = forwardRef<HTMLAnchorElement, Props>(function NavLinkComponent(
   ref,
 ) {
   const handleClick: React.MouseEventHandler<HTMLAnchorElement> = (e) => {
+    e.preventDefault();
+    document.querySelector(href)?.scrollIntoView()
     onClick(e);
   };
   return (

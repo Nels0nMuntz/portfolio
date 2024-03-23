@@ -1,4 +1,3 @@
-import Image from "next/image";
 import InfoItem from "./components/InfoItem";
 import { Button } from "@/components";
 import Link from "next/link";
@@ -28,7 +27,7 @@ export default function About() {
               />
               <InfoItem
                 title="Completed"
-                subtitle="15+ Projects"
+                subtitle="18+ Projects"
                 icon={<i className="bx bx-briefcase-alt" />}
               />
               <InfoItem title="Passion" subtitle="100%" icon={<i className="bx bxs-hot" />} />

@@ -1,9 +1,15 @@
+"use client"
+
 import Link from "next/link";
 
 export default function ScrollDown() {
+  const handleClick: React.MouseEventHandler = (e) => {
+    e.preventDefault();
+    document.querySelector("#about")?.scrollIntoView();
+}
   return (
     <div className="hidden md:block ml-[7.5rem] xm:ml-[9.25rem]">
-      <Link href="#about" className="inline-flex items-center group">
+      <Link href="#about" className="inline-flex items-center group" onClick={handleClick}>
         <svg
           width="32px"
           height="32px"

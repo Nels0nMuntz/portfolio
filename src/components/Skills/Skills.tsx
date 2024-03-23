@@ -38,6 +38,7 @@ export default function Skills() {
                 <SkillItem title="Docker" subtitle="Intermediate" />
                 <SkillItem title="GitLab" subtitle="Intermediate" />
                 <SkillItem title="AWS" subtitle="Intermediate" />
+                <SkillItem title="SEO" subtitle="Intermediate" />
               </div>
             </div>
           </div>

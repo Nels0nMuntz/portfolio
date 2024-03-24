@@ -27,7 +27,14 @@ export function DialogDescription({ children, className = "" }: PropsWithChildre
 
 export function DialogDesLink({ href, variant, children }: DialogDesLinkProps) {
   return (
-    <Button variant={variant} asChild className="justify-self-start">
+    <Button 
+      variant={variant} 
+      asChild 
+      className={[
+        "justify-self-start",
+        variant === "outline" && "bg-transparent hover:bg-transparent hover:border-dark-1"
+      ].filter(Boolean).join(" ")}
+    >
       <Link href={href || ""} target="_blank">
         {children}
       </Link>

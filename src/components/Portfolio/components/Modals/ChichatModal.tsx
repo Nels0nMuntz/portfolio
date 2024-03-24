@@ -19,7 +19,10 @@ export default function ChichatModal() {
               <DialogDescription className="md:ml-auto">
                 Realtime Chat Application
               </DialogDescription>
-              <DialogDesLink href="https://chichat-web.netlify.app">Open live site</DialogDesLink>
+              <div className="flex gap-x-4">
+                <DialogDesLink href="https://chichat-web.netlify.app">Open live site</DialogDesLink>
+                <DialogDesLink variant="outline" href="https://github.com/Nels0nMuntz/chichat">Open code</DialogDesLink>
+              </div>
             </div>
           </div>
           <div className="py-12 px-4 md:px-10 sm:text-base text-center">

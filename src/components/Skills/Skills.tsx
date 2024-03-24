@@ -21,7 +21,7 @@ export default function Skills() {
               <div className="flex flex-col items-start gap-4">
                 <SkillItem title="JavaScript" subtitle="Advanced" />
                 <SkillItem title="TypeScript" subtitle="Advanced" />
-                <SkillItem title="Webpack" subtitle="Advanced" />
+                <SkillItem title="Webpack, Rollup" subtitle="Advanced" />
                 <SkillItem title="Vite" subtitle="Intermediate" />
                 <SkillItem title="Gulp" subtitle="Advanced" />
                 <SkillItem title="Git" subtitle="Advanced" />

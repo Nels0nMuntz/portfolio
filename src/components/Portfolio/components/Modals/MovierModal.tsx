@@ -24,7 +24,10 @@ export default function MovierModal() {
             <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left order-1 md:order-none">
               <DialogHeading>Movier</DialogHeading>
               <DialogDescription>React client for TMDb.</DialogDescription>
-              <DialogDesLink href="https://movier-web.netlify.app">Open live site</DialogDesLink>
+              <div className="flex gap-x-4">
+                <DialogDesLink href="https://movier-web.netlify.app">Open live site</DialogDesLink>
+                <DialogDesLink variant="outline" href="https://github.com/Nels0nMuntz/movier-web">Open code</DialogDesLink>
+              </div>
             </div>
           </div>
           <div className="py-12 px-4 md:px-10 sm:text-base">

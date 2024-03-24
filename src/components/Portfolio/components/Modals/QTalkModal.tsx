@@ -54,7 +54,10 @@ export default function QTalkModal() {
                 <strong>qTalk</strong> is a network of communities where people can dive into their
                 interests, hobbies and passions.
               </DialogDescription>
-              <DialogDesLink href="https://qtalk.vercel.app/">Open live site</DialogDesLink>
+              <div className="flex gap-x-4">
+                <DialogDesLink href="https://qtalk.vercel.app/">Open live site</DialogDesLink>
+                <DialogDesLink variant="outline" href="https://github.com/Nels0nMuntz/qTalk-client">Open code</DialogDesLink>
+              </div>
             </div>
           </div>
           <DialogDescription className="max-w-4xl mt-6 py-4 px-4 md:px-10 sm:text-base">

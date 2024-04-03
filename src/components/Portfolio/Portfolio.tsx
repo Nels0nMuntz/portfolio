@@ -9,7 +9,7 @@ import MCMModal from "./components/Modals/MCMModal";
 import MovierModal from "./components/Modals/MovierModal";
 import ChichatModal from "./components/Modals/ChichatModal";
 import QTalkModal from "./components/Modals/QTalkModal";
-import RaffleModal from "./components/Modals/RaffleModal";
+// import RaffleModal from "./components/Modals/RaffleModal";
 import VicharaModal from "./components/Modals/VicharaModal";
 import HappyBookingModal from "./components/Modals/HappyBookingModal";
 
@@ -20,12 +20,12 @@ const works: Work[] = [
     preview: "/dingdingding/ddd-homepage.png",
     technologies: ["HTML", "CSS", "JS", "Gulp"],
   },
-  {
-    id: "raffle",
-    title: "Raffle House",
-    preview: "/raffle/raffle-preview.png",
-    technologies: ["React", "CSS", "SCSS", "Material UI"],
-  },
+  // {
+  //   id: "raffle",
+  //   title: "Raffle House",
+  //   preview: "/raffle/raffle-preview.png",
+  //   technologies: ["React", "CSS", "SCSS", "Material UI"],
+  // },
   {
     id: "vichara",
     title: "Vichara",
@@ -102,7 +102,7 @@ export default function Portfolio() {
       <MovierModal />
       <ChichatModal />
       <QTalkModal />
-      <RaffleModal />
+      {/* <RaffleModal /> */}
       <VicharaModal />
       <HappyBookingModal />
     </ModalsProvider>

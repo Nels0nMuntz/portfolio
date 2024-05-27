@@ -12,6 +12,7 @@ import QTalkModal from "./components/Modals/QTalkModal";
 // import RaffleModal from "./components/Modals/RaffleModal";
 import VicharaModal from "./components/Modals/VicharaModal";
 import HappyBookingModal from "./components/Modals/HappyBookingModal";
+import RaffleModal from "./components/Modals/RaffleModal";
 
 const works: Work[] = [
   {
@@ -20,12 +21,6 @@ const works: Work[] = [
     preview: "/dingdingding/ddd-homepage.png",
     technologies: ["HTML", "CSS", "JS", "Gulp"],
   },
-  // {
-  //   id: "raffle",
-  //   title: "Raffle House",
-  //   preview: "/raffle/raffle-preview.png",
-  //   technologies: ["React", "CSS", "SCSS", "Material UI"],
-  // },
   {
     id: "vichara",
     title: "Vichara",
@@ -49,6 +44,12 @@ const works: Work[] = [
     title: "Mark Carroll Method",
     preview: "/mcm/mcm-preview.png",
     technologies: ["React", "Redux", "Redux-saga", "Ant Design", "Webpack", "PWA"],
+  },
+  {
+    id: "raffle",
+    title: "Raffle House",
+    preview: "/raffle/rh-preview.png",
+    technologies: ["React", "Redux", "Redux-Thunk", "Express", "SCSS", "Webpack"],
   },
   {
     id: "movier",
@@ -102,7 +103,7 @@ export default function Portfolio() {
       <MovierModal />
       <ChichatModal />
       <QTalkModal />
-      {/* <RaffleModal /> */}
+      <RaffleModal />
       <VicharaModal />
       <HappyBookingModal />
     </ModalsProvider>

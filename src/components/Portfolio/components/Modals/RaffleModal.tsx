@@ -76,6 +76,17 @@ export default function RaffleModal() {
                   className="w-full h-auto"
                 />
               </SwiperSlide>
+              {/* <SwiperSlide className="hidden sm:block">
+                <div className="w-full flex justify-center">
+                  <Image
+                    width={680}
+                    height={540}
+                    src="/raffle/rh-1m.png"
+                    alt="screenshot"
+                    className="w-full max-w-[240px] mx-auto h-auto"
+                  />
+                </div>
+              </SwiperSlide> */}
               <SwiperSlide>
                 <Image
                   width={680}
@@ -85,6 +96,17 @@ export default function RaffleModal() {
                   className="w-full h-auto"
                 />
               </SwiperSlide>
+              {/* <SwiperSlide className="hidden sm:block">
+                <div className="w-full flex justify-center">
+                  <Image
+                    width={680}
+                    height={540}
+                    src="/raffle/rh-2m.png"
+                    alt="screenshot"
+                    className="w-full max-w-[240px] mx-auto h-auto"
+                  />
+                </div>
+              </SwiperSlide> */}
               <SwiperSlide>
                 <Image
                   width={680}
@@ -94,6 +116,17 @@ export default function RaffleModal() {
                   className="w-full h-auto"
                 />
               </SwiperSlide>
+              {/* <SwiperSlide className="hidden sm:block">
+                <div className="w-full flex justify-center">
+                  <Image
+                    width={680}
+                    height={540}
+                    src="/raffle/rh-3m.png"
+                    alt="screenshot"
+                    className="w-full max-w-[240px] mx-auto h-auto"
+                  />
+                </div>
+              </SwiperSlide> */}
               <SwiperSlide>
                 <Image
                   width={680}
@@ -103,6 +136,17 @@ export default function RaffleModal() {
                   className="w-full h-auto"
                 />
               </SwiperSlide>
+              {/* <SwiperSlide className="hidden sm:block">
+                <div className="w-full flex justify-center">
+                  <Image
+                    width={680}
+                    height={540}
+                    src="/raffle/rh-4m.png"
+                    alt="screenshot"
+                    className="w-full max-w-[240px] mx-auto h-auto"
+                  />
+                </div>
+              </SwiperSlide> */}
               <SwiperSlide>
                 <Image
                   width={680}
@@ -112,6 +156,17 @@ export default function RaffleModal() {
                   className="w-full h-auto"
                 />
               </SwiperSlide>
+              {/* <SwiperSlide className="hidden sm:block">
+                <div className="w-full flex justify-center">
+                  <Image
+                    width={680}
+                    height={540}
+                    src="/raffle/rh-5m.png"
+                    alt="screenshot"
+                    className="w-full max-w-[240px] mx-auto h-auto"
+                  />
+                </div>
+              </SwiperSlide> */}
               <SwiperSlide>
                 <Image
                   width={680}
@@ -121,6 +176,17 @@ export default function RaffleModal() {
                   className="w-full h-auto"
                 />
               </SwiperSlide>
+              {/* <SwiperSlide className="hidden sm:block">
+                <div className="w-full flex justify-center">
+                  <Image
+                    width={680}
+                    height={540}
+                    src="/raffle/rh-6m.png"
+                    alt="screenshot"
+                    className="w-full max-w-[240px] mx-auto h-auto"
+                  />
+                </div>
+              </SwiperSlide> */}
               <SwiperSlide>
                 <Image
                   width={680}
@@ -130,6 +196,17 @@ export default function RaffleModal() {
                   className="w-full h-auto"
                 />
               </SwiperSlide>
+              {/* <SwiperSlide className="hidden sm:block">
+                <div className="w-full flex justify-center">
+                  <Image
+                    width={680}
+                    height={540}
+                    src="/raffle/rh-7m.png"
+                    alt="screenshot"
+                    className="w-full max-w-[240px] mx-auto h-auto"
+                  />
+                </div>
+              </SwiperSlide> */}
               <SwiperSlide>
                 <Image
                   width={680}
@@ -139,6 +216,17 @@ export default function RaffleModal() {
                   className="w-full h-auto"
                 />
               </SwiperSlide>
+              {/* <SwiperSlide className="hidden sm:block">
+                <div className="w-full flex justify-center">
+                  <Image
+                    width={680}
+                    height={540}
+                    src="/raffle/rh-8m.png"
+                    alt="screenshot"
+                    className="w-full max-w-[240px] mx-auto h-auto"
+                  />
+                </div>
+              </SwiperSlide> */}
               <SwiperSlide>
                 <Image
                   width={680}
@@ -148,87 +236,17 @@ export default function RaffleModal() {
                   className="w-full h-auto"
                 />
               </SwiperSlide>
-              <SwiperSlide className="hidden sm:block">
-                <Image
-                  width={680}
-                  height={540}
-                  src="/raffle/rh-1m.png"
-                  alt="screenshot"
-                  className="w-full max-w-[240px] mx-auto h-auto"
-                />
-              </SwiperSlide>
-              <SwiperSlide className="hidden sm:block">
-                <Image
-                  width={680}
-                  height={540}
-                  src="/raffle/rh-2m.png"
-                  alt="screenshot"
-                  className="w-full max-w-[240px] mx-auto h-auto"
-                />
-              </SwiperSlide>
-              <SwiperSlide className="hidden sm:block">
-                <Image
-                  width={680}
-                  height={540}
-                  src="/raffle/rh-3m.png"
-                  alt="screenshot"
-                  className="w-full max-w-[240px] mx-auto h-auto"
-                />
-              </SwiperSlide>
-              <SwiperSlide className="hidden sm:block">
-                <Image
-                  width={680}
-                  height={540}
-                  src="/raffle/rh-4m.png"
-                  alt="screenshot"
-                  className="w-full max-w-[240px] mx-auto h-auto"
-                />
-              </SwiperSlide>
-              <SwiperSlide className="hidden sm:block">
-                <Image
-                  width={680}
-                  height={540}
-                  src="/raffle/rh-5m.png"
-                  alt="screenshot"
-                  className="w-full max-w-[240px] mx-auto h-auto"
-                />
-              </SwiperSlide>
-              <SwiperSlide className="hidden sm:block">
-                <Image
-                  width={680}
-                  height={540}
-                  src="/raffle/rh-6m.png"
-                  alt="screenshot"
-                  className="w-full max-w-[240px] mx-auto h-auto"
-                />
-              </SwiperSlide>
-              <SwiperSlide className="hidden sm:block">
-                <Image
-                  width={680}
-                  height={540}
-                  src="/raffle/rh-7m.png"
-                  alt="screenshot"
-                  className="w-full max-w-[240px] mx-auto h-auto"
-                />
-              </SwiperSlide>
-              <SwiperSlide className="hidden sm:block">
-                <Image
-                  width={680}
-                  height={540}
-                  src="/raffle/rh-8m.png"
-                  alt="screenshot"
-                  className="w-full max-w-[240px] mx-auto h-auto"
-                />
-              </SwiperSlide>
-              <SwiperSlide className="hidden sm:block">
-                <Image
-                  width={680}
-                  height={540}
-                  src="/raffle/rh-9m.png"
-                  alt="screenshot"
-                  className="w-full max-w-[240px] mx-auto h-auto"
-                />
-              </SwiperSlide>
+              {/* <SwiperSlide className="hidden sm:block">
+                <div className="w-full flex justify-center">
+                  <Image
+                    width={680}
+                    height={540}
+                    src="/raffle/rh-9m.png"
+                    alt="screenshot"
+                    className="w-full max-w-[240px] mx-auto h-auto"
+                  />
+                </div>
+              </SwiperSlide> */}
             </Slider>
           </div>
         </div>

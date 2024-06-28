@@ -9,7 +9,6 @@ import MCMModal from "./components/Modals/MCMModal";
 import MovierModal from "./components/Modals/MovierModal";
 import ChichatModal from "./components/Modals/ChichatModal";
 import QTalkModal from "./components/Modals/QTalkModal";
-// import RaffleModal from "./components/Modals/RaffleModal";
 import VicharaModal from "./components/Modals/VicharaModal";
 import HappyBookingModal from "./components/Modals/HappyBookingModal";
 import RaffleModal from "./components/Modals/RaffleModal";
@@ -49,7 +48,18 @@ const works: Work[] = [
     id: "raffle",
     title: "Raffle House",
     preview: "/raffle/rh-preview.png",
-    technologies: ["React", "Redux", "Redux-Thunk", "Express", "SCSS", "Webpack"],
+    technologies: [
+      "React",
+      "Redux",
+      "Redux-Thunk",
+      "React-Admin",
+      "Express",
+      "MongoDB",
+      "SCSS",
+      "Storybook",
+      "Webpack",
+      "Rollup",
+    ],
   },
   {
     id: "movier",
@@ -78,6 +88,7 @@ const works: Work[] = [
       "NextAuth",
       "Prisma",
       "PostgreSQL",
+      "Jest",
     ],
     pet: true,
   },

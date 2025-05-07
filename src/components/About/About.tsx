@@ -33,7 +33,7 @@ export default function About() {
               <InfoItem title="Passion" subtitle="100%" icon={<i className="bx bxs-hot" />} />
             </div>
             <Button asChild>
-              <Link href="/CV.pdf" download="" target="_blank" className="self-center gap-2">
+              <Link href="/cv.pdf" download="" target="_blank" className="self-center gap-2">
                 <span>Download CV</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

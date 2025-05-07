@@ -31,14 +31,20 @@ export default function QualificationTabs() {
         <QualificationItem
           title="Markup Developer"
           subtitle="A-Development"
-          duration="Oct 2020 - Nov 2021"
+          duration="Oct 2020 - Feb 2022"
           position="left"
         />
         <QualificationItem
           title="Frontend Developer"
           subtitle="A-Development"
-          duration="Dec 2021 - present"
+          duration="Jan 2022 - Jul 2024"
           position="right"
+        />
+        <QualificationItem
+          title="Frontend and Mobile Developer"
+          subtitle="Visionary Solutions"
+          duration="Aug 2024 - present"
+          position="left"
         />
       </TabsContent>
     </Tabs>

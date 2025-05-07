@@ -27,10 +27,10 @@ export default function Contact() {
               />
               <ContactCard
                 title="Phone"
-                subtitle="+38 (095) 784 29 60"
+                subtitle="+38 (095) 932 98 92"
                 icon={<i className="bx bx-phone"></i>}
                 linkText="Call me"
-                linkHref="tel:+380957842960"
+                linkHref="tel:+380959329892"
               />
             </div>
           </div>

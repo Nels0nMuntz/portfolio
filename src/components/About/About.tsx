@@ -22,7 +22,7 @@ export default function About() {
             <div className="grid grid-cols-1 xs:grid-cols-3 sm:grid-cols-[repeat(3,_140px)] gap-2 justify-center mb-8">
               <InfoItem
                 title="Experience"
-                subtitle="3 Years Working"
+                subtitle="5 Years Working"
                 icon={<i className="bx bx-award" />}
               />
               <InfoItem

@@ -39,9 +39,11 @@ export default function Skills() {
               </div>
               <div className="flex flex-col items-start gap-4">
                 <SkillItem title="Firebase" subtitle="Intermediate" />
+                <SkillItem title="Github Actions" subtitle="Intermediate" />
                 <SkillItem title="Docker" subtitle="Intermediate" />
                 <SkillItem title="AWS" subtitle="Intermediate" />
                 <SkillItem title="CI/CD" subtitle="Intermediate" />
+                <SkillItem title="Testing (unit, integration, e2e)" subtitle="Intermediate" />
               </div>
             </div>
           </div>

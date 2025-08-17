@@ -12,37 +12,37 @@ import QTalkModal from "./components/Modals/QTalkModal";
 import VicharaModal from "./components/Modals/VicharaModal";
 import HappyBookingModal from "./components/Modals/HappyBookingModal";
 import RaffleModal from "./components/Modals/RaffleModal";
+import PulseUpModal from "./components/Modals/PulseUpModal";
 
 const works: Work[] = [
   {
-    id: "ding",
-    title: "Ding Ding Ding",
-    preview: "/dingdingding/ddd-homepage.png",
-    technologies: ["HTML", "CSS", "JS", "Gulp"],
-  },
-  {
-    id: "vichara",
-    title: "Vichara",
-    preview: "/vichara/vichara-preview.png",
-    technologies: ["HTML", "CSS", "Tailwind CSS", "GSAP", "JS", "Gulp"],
-  },
-  {
-    id: "happyBooking",
-    title: "Happy Booking",
-    preview: "/happy-booking/happy-booking-1.png",
-    technologies: ["HTML", "CSS", "JS"],
-  },
-  {
-    id: "eve",
-    title: "EVE Admin",
-    preview: "/eve/eve-preview.png",
-    technologies: ["React", "Redux", "Redux-saga", "Material UI", "Webpack"],
+    id: "pulseup",
+    title: "PulseUp – Mobile & Web App",
+    preview: "/pulseup/pulseup-preview.png",
+    technologies: [
+      "React Native",
+      "Expo",
+      "React Query",
+      "Zustand",
+      "Firebase",
+      "WebSockets",
+      "Mapbox",
+      "Angular",
+      "Angular Material",
+      "RxJS",
+    ],
   },
   {
     id: "mcm",
     title: "Mark Carroll Method",
     preview: "/mcm/mcm-preview.png",
     technologies: ["React", "Redux", "Redux-saga", "Ant Design", "Webpack", "PWA"],
+  },
+  {
+    id: "eve",
+    title: "EVE Admin",
+    preview: "/eve/eve-preview.png",
+    technologies: ["React", "Redux", "Redux-saga", "Material UI", "Webpack"],
   },
   {
     id: "raffle",
@@ -60,6 +60,24 @@ const works: Work[] = [
       "Webpack",
       "Rollup",
     ],
+  },
+  {
+    id: "ding",
+    title: "Ding Ding Ding",
+    preview: "/dingdingding/ddd-homepage.png",
+    technologies: ["HTML", "CSS", "JS", "Gulp"],
+  },
+  {
+    id: "vichara",
+    title: "Vichara",
+    preview: "/vichara/vichara-preview.png",
+    technologies: ["HTML", "CSS", "Tailwind CSS", "GSAP", "JS", "Gulp"],
+  },
+  {
+    id: "happyBooking",
+    title: "Happy Booking",
+    preview: "/happy-booking/happy-booking-1.png",
+    technologies: ["HTML", "CSS", "JS"],
   },
   {
     id: "movier",
@@ -117,6 +135,7 @@ export default function Portfolio() {
       <RaffleModal />
       <VicharaModal />
       <HappyBookingModal />
+      <PulseUpModal />
     </ModalsProvider>
   );
 }

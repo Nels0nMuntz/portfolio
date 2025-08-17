@@ -21,7 +21,9 @@ export default function ChichatModal() {
               </DialogDescription>
               <div className="flex gap-x-4">
                 <DialogDesLink href="https://chichat-web.netlify.app">Open live site</DialogDesLink>
-                <DialogDesLink variant="outline" href="https://github.com/Nels0nMuntz/chichat">Open code</DialogDesLink>
+                <DialogDesLink variant="outline" href="https://github.com/Nels0nMuntz/chichat">
+                  Open code
+                </DialogDesLink>
               </div>
             </div>
           </div>

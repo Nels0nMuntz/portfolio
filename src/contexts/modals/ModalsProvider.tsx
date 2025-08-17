@@ -49,6 +49,9 @@ const initialState: ModalsState = {
   happyBooking: {
     isOpen: false,
   },
+  pulseup: {
+    isOpen: false,
+  },
 };
 
 function modalReducer(state: ModalsState, action: ModalsAction): ModalsState {

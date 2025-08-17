@@ -16,7 +16,7 @@ export default function Slider({ autoplay, children }: Props) {
       loop
       autoplay={
         autoplay || {
-          delay: 2000,
+          delay: 3000,
           disableOnInteraction: false,
         }
       }

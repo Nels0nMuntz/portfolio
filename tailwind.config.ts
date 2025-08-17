@@ -70,6 +70,7 @@ const config: Config = {
       },
       screens: {
         xs: "375px",
+        xsm: "480px",
         "2sm": "550px",
         xm: "992px",
       },

@@ -42,12 +42,55 @@ export default function PulseUpModal() {
             </div>
           </div>
           <div className="py-12 px-4 md:px-10 sm:text-base text-center">
-            <DialogDescription className="max-w-4xl md:ml-auto">
+            <DialogDescription className="max-w-4xl md:ml-auto text-left">
               PulseUp is an anonymous, real-time platform that lets you support causes, candidates,
               teams, and trends with a single tap. Users can support candidates, causes, teams,
               protests, memes, or cultural moments. Each choice lasts 24 hours, shaping a live map
               of what people are backing locally and globally. PulseUp reveals what’s gaining
               momentum and invites everyone to support what matters.
+            </DialogDescription>
+            <DialogDescription className="max-w-4xl md:ml-auto font-bold text-left">
+              What I Worked On:
+            </DialogDescription>
+            <DialogDescription className="max-w-4xl md:ml-auto text-left">
+              <h3 className="text-inherit">Mobile App</h3>
+              <ul className="list-disc list-inside">
+                <li>
+                  Built the mobile app from the ground up, covering everything from architecture
+                  design to final release.
+                </li>
+                <li>Released and maintained the app on App Store and Google Play.</li>
+                <li>Solved platform-specific issues (e.g., UI/UX differences, deep links).</li>
+                <li>
+                  Optimized app performance for smooth, responsive interactions, fluid animations,
+                  optimistic UI updates.
+                </li>
+                <li>
+                  Worked on offline support and improved error handling for unstable network
+                  conditions.
+                </li>
+                <li>
+                  Regularly proposed and discussed new product ideas, helping improve the app’s user
+                  experience and features.
+                </li>
+              </ul>
+            </DialogDescription>
+            <DialogDescription className="max-w-4xl md:ml-auto text-left">
+              <h3 className="text-inherit">Web App</h3>
+              <ul className="list-disc list-inside">
+                <li>
+                  Added new features to extend the functionality available on the web platform.
+                </li>
+                <li>
+                  Optimized performance by minimizing unnecessary re-renders, implementing lazy
+                  loading and code splitting, reducing network requests, and using modern fonts and
+                  image formats.
+                </li>
+                <li>
+                  Maintained code quality with refactoring, bug fixes, and reusable components.
+                </li>
+                <li>Suggested ideas to make the app easier and more enjoyable to use.</li>
+              </ul>
             </DialogDescription>
           </div>
           <div className="pt-20 pb-14 pl-4 md:pl-0 bg-[#F8F9F9]">

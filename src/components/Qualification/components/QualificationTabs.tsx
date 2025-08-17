@@ -26,6 +26,12 @@ export default function QualificationTabs() {
           duration="2013 - 2018"
           position="left"
         />
+        <QualificationItem
+          title="Genesis Front-end School"
+          subtitle="Genesis Academy, Kyiv"
+          duration="May 2025 - July 2025"
+          position="right"
+        />
       </TabsContent>
       <TabsContent value="exp">
         <QualificationItem

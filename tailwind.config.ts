@@ -33,6 +33,9 @@ const config: Config = {
         fixed: "var(--z-fixed)",
         modal: "var(--z-modal)",
       },
+      borderRadius: {
+        profile: "30% 60% 70% 40%/50% 60% 30% 60%",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

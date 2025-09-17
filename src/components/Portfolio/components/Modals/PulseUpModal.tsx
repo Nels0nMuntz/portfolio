@@ -22,6 +22,7 @@ export default function PulseUpModal() {
               height={700}
               alt="preview"
               className="static 2sm:relative md:static w-full max-w-[320px] mx-auto h-auto justify-self-center md:justify-self-auto order-2 md:order-none"
+              loading="eager"
             />
             <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left order-1 md:order-none">
               <DialogHeading>PulseUp</DialogHeading>
@@ -94,7 +95,7 @@ export default function PulseUpModal() {
             </DialogDescription>
           </div>
           <div className="pt-20 pb-14 pl-4 md:pl-0 bg-[#F8F9F9]">
-            <Slider>
+            <Slider autoplay={false}>
               <SwiperSlide className="sm:block">
                 <Image
                   width={680}
@@ -102,6 +103,7 @@ export default function PulseUpModal() {
                   src="/pulseup/pulseup-mobile-1.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="sm:block">
@@ -111,6 +113,7 @@ export default function PulseUpModal() {
                   src="/pulseup/pulseup-mobile-2.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="sm:block">
@@ -120,6 +123,7 @@ export default function PulseUpModal() {
                   src="/pulseup/pulseup-mobile-3.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="sm:block">
@@ -129,6 +133,7 @@ export default function PulseUpModal() {
                   src="/pulseup/pulseup-mobile-4.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="sm:block">
@@ -138,6 +143,7 @@ export default function PulseUpModal() {
                   src="/pulseup/pulseup-mobile-5.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="sm:block">
@@ -147,6 +153,37 @@ export default function PulseUpModal() {
                   src="/pulseup/pulseup-mobile-6.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="sm:block">
+                <Image
+                  width={680}
+                  height={540}
+                  src="/pulseup/pulseup-1.png"
+                  alt="screenshot"
+                  className="w-full"
+                  loading="eager"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="sm:block">
+                <Image
+                  width={680}
+                  height={540}
+                  src="/pulseup/pulseup-2.png"
+                  alt="screenshot"
+                  className="w-full"
+                  loading="eager"
+                />
+              </SwiperSlide>
+              <SwiperSlide className="sm:block">
+                <Image
+                  width={680}
+                  height={540}
+                  src="/pulseup/pulseup-3.png"
+                  alt="screenshot"
+                  className="w-full"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="sm:block">
@@ -156,6 +193,7 @@ export default function PulseUpModal() {
                   src="/pulseup/pulseup-mobile-7.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
             </Slider>

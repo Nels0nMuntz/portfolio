@@ -21,6 +21,7 @@ export default function RaffleModal() {
               height={700}
               alt="preview"
               className="static 2sm:relative md:static w-full max-w-lg h-auto max-h-[600px] object-contain justify-self-center md:justify-self-auto order-2 md:order-none ml-0 2sm:ml-0"
+              loading="eager"
             />
             <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left order-1 md:order-none">
               <DialogHeading>Raffle House</DialogHeading>
@@ -74,6 +75,7 @@ export default function RaffleModal() {
                   src="/raffle/rh-1.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">
@@ -94,6 +96,7 @@ export default function RaffleModal() {
                   src="/raffle/rh-2.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">
@@ -114,6 +117,7 @@ export default function RaffleModal() {
                   src="/raffle/rh-3.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">
@@ -134,6 +138,7 @@ export default function RaffleModal() {
                   src="/raffle/rh-4.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">
@@ -154,6 +159,7 @@ export default function RaffleModal() {
                   src="/raffle/rh-5.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">
@@ -174,6 +180,7 @@ export default function RaffleModal() {
                   src="/raffle/rh-6.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">
@@ -194,6 +201,7 @@ export default function RaffleModal() {
                   src="/raffle/rh-7.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">
@@ -214,6 +222,7 @@ export default function RaffleModal() {
                   src="/raffle/rh-8.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">
@@ -234,6 +243,7 @@ export default function RaffleModal() {
                   src="/raffle/rh-9.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">

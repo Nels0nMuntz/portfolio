@@ -20,13 +20,16 @@ export default function MovierModal() {
               height={700}
               alt="preview"
               className="static 2sm:relative md:static -left-16 w-full max-w-lg h-auto justify-self-center md:justify-self-auto order-2 md:order-none ml-[-24%] 2sm:ml-0"
+              loading="eager"
             />
             <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left order-1 md:order-none">
               <DialogHeading>Movier</DialogHeading>
               <DialogDescription>React client for TMDb.</DialogDescription>
               <div className="flex gap-x-4">
                 <DialogDesLink href="https://movier-web.netlify.app">Open live site</DialogDesLink>
-                <DialogDesLink variant="outline" href="https://github.com/Nels0nMuntz/movier-web">Open code</DialogDesLink>
+                <DialogDesLink variant="outline" href="https://github.com/Nels0nMuntz/movier-web">
+                  Open code
+                </DialogDesLink>
               </div>
             </div>
           </div>
@@ -50,6 +53,7 @@ export default function MovierModal() {
                   src="/movier/movier-1.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -59,6 +63,7 @@ export default function MovierModal() {
                   src="/movier/movier-2.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -68,6 +73,7 @@ export default function MovierModal() {
                   src="/movier/movier-3.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -77,6 +83,7 @@ export default function MovierModal() {
                   src="/movier/movier-4.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -86,6 +93,7 @@ export default function MovierModal() {
                   src="/movier/movier-5.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -95,6 +103,7 @@ export default function MovierModal() {
                   src="/movier/movier-6.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
             </Slider>

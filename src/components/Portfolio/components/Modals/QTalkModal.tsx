@@ -47,6 +47,7 @@ export default function QTalkModal() {
               height={700}
               alt="preview"
               className="relative left-8 2sm:-left-4 w-full max-w-lg h-auto justify-self-center md:justify-self-auto order-2 md:order-none ml-[-24%] 2sm:ml-0"
+              loading="eager"
             />
             <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left order-1 md:order-none">
               <DialogHeading>qTalk</DialogHeading>
@@ -56,7 +57,9 @@ export default function QTalkModal() {
               </DialogDescription>
               <div className="flex gap-x-4">
                 <DialogDesLink href="https://qtalk.vercel.app/">Open live site</DialogDesLink>
-                <DialogDesLink variant="outline" href="https://github.com/Nels0nMuntz/qTalk-client">Open code</DialogDesLink>
+                <DialogDesLink variant="outline" href="https://github.com/Nels0nMuntz/qTalk-client">
+                  Open code
+                </DialogDesLink>
               </div>
             </div>
           </div>
@@ -90,6 +93,7 @@ export default function QTalkModal() {
                   src="/qtalk/qtalk-1.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -99,6 +103,7 @@ export default function QTalkModal() {
                   src="/qtalk/qtalk-2.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -108,6 +113,7 @@ export default function QTalkModal() {
                   src="/qtalk/qtalk-3.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -117,6 +123,7 @@ export default function QTalkModal() {
                   src="/qtalk/qtalk-4.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -126,6 +133,7 @@ export default function QTalkModal() {
                   src="/qtalk/qtalk-5.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -135,6 +143,7 @@ export default function QTalkModal() {
                   src="/qtalk/qtalk-6.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -144,6 +153,7 @@ export default function QTalkModal() {
                   src="/qtalk/qtalk-7.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -153,6 +163,7 @@ export default function QTalkModal() {
                   src="/qtalk/qtalk-8.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -162,6 +173,7 @@ export default function QTalkModal() {
                   src="/qtalk/qtalk-9.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -171,6 +183,7 @@ export default function QTalkModal() {
                   src="/qtalk/qtalk-10.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
             </Slider>

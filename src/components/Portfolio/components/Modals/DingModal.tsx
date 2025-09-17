@@ -20,6 +20,7 @@ export default function DingModal() {
               height={700}
               alt="preview"
               className="static 2sm:relative md:static -left-16 w-full max-w-lg h-auto justify-self-center md:justify-self-auto order-2 md:order-none ml-[-24%] 2sm:ml-0"
+              loading="eager"
             />
             <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left order-1 md:order-none">
               <DialogHeading>Ding Ding Ding</DialogHeading>
@@ -39,6 +40,7 @@ export default function DingModal() {
                   src="/dingdingding/ding-screen-1.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -48,6 +50,7 @@ export default function DingModal() {
                   src="/dingdingding/ding-screen-2.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -57,6 +60,7 @@ export default function DingModal() {
                   src="/dingdingding/ding-screen-3.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -66,6 +70,7 @@ export default function DingModal() {
                   src="/dingdingding/ding-screen-4.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -75,6 +80,7 @@ export default function DingModal() {
                   src="/dingdingding/ding-screen-5.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -84,6 +90,7 @@ export default function DingModal() {
                   src="/dingdingding/ding-screen-6.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -93,6 +100,7 @@ export default function DingModal() {
                   src="/dingdingding/ding-screen-7.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -102,6 +110,7 @@ export default function DingModal() {
                   src="/dingdingding/ding-screen-8.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -111,6 +120,7 @@ export default function DingModal() {
                   src="/dingdingding/ding-screen-9.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -120,6 +130,7 @@ export default function DingModal() {
                   src="/dingdingding/ding-screen-10.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -129,6 +140,7 @@ export default function DingModal() {
                   src="/dingdingding/ding-screen-11.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -138,6 +150,7 @@ export default function DingModal() {
                   src="/dingdingding/ding-screen-12.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto max h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -147,6 +160,7 @@ export default function DingModal() {
                   src="/dingdingding/ding-screen-13.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -156,6 +170,7 @@ export default function DingModal() {
                   src="/dingdingding/ding-screen-14.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto max h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
             </Slider>

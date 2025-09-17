@@ -50,6 +50,7 @@ export default function ChichatModal() {
                   src="/chichat/chichat-1.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -59,6 +60,7 @@ export default function ChichatModal() {
                   src="/chichat/chichat-2.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -68,6 +70,7 @@ export default function ChichatModal() {
                   src="/chichat/chichat-3.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -77,6 +80,7 @@ export default function ChichatModal() {
                   src="/chichat/chichat-4.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -86,6 +90,7 @@ export default function ChichatModal() {
                   src="/chichat/chichat-5.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
             </Slider>

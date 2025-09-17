@@ -15,10 +15,12 @@ export default function Slider({ autoplay, children }: Props) {
       centeredSlides={false}
       loop
       autoplay={
-        autoplay || {
-          delay: 3000,
-          disableOnInteraction: false,
-        }
+        autoplay === undefined
+          ? {
+              delay: 3000,
+              disableOnInteraction: false,
+            }
+          : autoplay
       }
       modules={[Autoplay]}
       speed={700}
@@ -29,6 +31,7 @@ export default function Slider({ autoplay, children }: Props) {
         },
       }}
       className="w-full max-w-modal"
+      wrapperClass="items-center"
     >
       {children}
     </Swiper>

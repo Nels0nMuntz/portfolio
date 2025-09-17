@@ -21,6 +21,7 @@ export default function HappyBookingModal() {
               height={700}
               alt="preview"
               className="static 2sm:relative md:static w-full max-w-lg h-auto justify-self-center md:justify-self-auto order-2 md:order-none 2sm:ml-0"
+              loading="eager"
             />
             <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left order-1 md:order-none">
               <DialogHeading>Happy Booking</DialogHeading>
@@ -46,6 +47,7 @@ export default function HappyBookingModal() {
                   src="/happy-booking/happy-booking-1.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -55,6 +57,7 @@ export default function HappyBookingModal() {
                   src="/happy-booking/happy-booking-2.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -64,6 +67,7 @@ export default function HappyBookingModal() {
                   src="/happy-booking/happy-booking-3.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -73,6 +77,7 @@ export default function HappyBookingModal() {
                   src="/happy-booking/happy-booking-4.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -82,6 +87,7 @@ export default function HappyBookingModal() {
                   src="/happy-booking/happy-booking-5.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -91,6 +97,7 @@ export default function HappyBookingModal() {
                   src="/happy-booking/happy-booking-6.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -100,6 +107,7 @@ export default function HappyBookingModal() {
                   src="/happy-booking/happy-booking-7.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -109,6 +117,7 @@ export default function HappyBookingModal() {
                   src="/happy-booking/happy-booking-8.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -118,6 +127,7 @@ export default function HappyBookingModal() {
                   src="/happy-booking/happy-booking-9.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
@@ -127,6 +137,7 @@ export default function HappyBookingModal() {
                   src="/happy-booking/happy-booking-10.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
             </Slider>

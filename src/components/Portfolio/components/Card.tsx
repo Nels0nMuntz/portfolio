@@ -6,10 +6,11 @@ import { Work } from "@/types";
 import { useModalsDispatch } from "@/contexts";
 import { useEffect, useState } from "react";
 
-export default function Card({ id, title, preview, technologies, pet }: Work) {
+export default function Card({ id, title, preview, technologies, pet, previewType }: Work) {
   const dispath = useModalsDispatch();
   const openModal = () => dispath({ type: "OPEN_MODAL", payload: id });
   const [isFitContain, setIsFitContain] = useState(false);
+  const isDesctopPreview = previewType === "desctop";
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     openModal();
@@ -25,14 +26,15 @@ export default function Card({ id, title, preview, technologies, pet }: Work) {
   }, []);
   return (
     <article className="relative group p-4 md:px-5 md:py-6 border border-primary rounded-xl bg-light-2">
-      <Link href="#" onClick={handleClick}>
+      <Link href="#" onClick={handleClick} className="flex justify-center items-center">
         <Image
           className={[
-            "w-full h-[270px] mb-6 rounded-xl duration-200",
+            "h-[270px] mb-6 rounded-xl duration-200",
             isFitContain ? "object-contain" : "object-cover",
+            isDesctopPreview ? "w-full" : "",
           ].join(" ")}
           src={preview}
-          width={410}
+          width={isDesctopPreview ? 540 : 125}
           height={270}
           alt="work 1"
         />

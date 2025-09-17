@@ -6,4 +6,5 @@ export interface Work {
   preview: string;
   technologies: string[];
   pet?: boolean;
+  previewType: "desctop" | "mobile";
 }

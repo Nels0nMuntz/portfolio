@@ -40,6 +40,7 @@ export default function EveModal() {
                   src="/eve/eve-1.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -49,6 +50,7 @@ export default function EveModal() {
                   src="/eve/eve-2.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -58,6 +60,7 @@ export default function EveModal() {
                   src="/eve/eve-3.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -67,6 +70,7 @@ export default function EveModal() {
                   src="/eve/eve-4.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -76,6 +80,7 @@ export default function EveModal() {
                   src="/eve/eve-5.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -85,6 +90,7 @@ export default function EveModal() {
                   src="/eve/eve-6.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -94,6 +100,7 @@ export default function EveModal() {
                   src="/eve/eve-7.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -103,6 +110,7 @@ export default function EveModal() {
                   src="/eve/eve-8.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
@@ -112,6 +120,7 @@ export default function EveModal() {
                   src="/eve/eve-9.png"
                   alt="screenshot"
                   className="w-full h-auto"
+                  loading="eager"
                 />
               </SwiperSlide>
             </Slider>

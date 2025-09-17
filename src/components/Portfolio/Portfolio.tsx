@@ -31,18 +31,21 @@ const works: Work[] = [
       "Angular Material",
       "RxJS",
     ],
+    previewType: "mobile",
   },
   {
     id: "mcm",
     title: "Mark Carroll Method",
     preview: "/mcm/mcm-preview.png",
     technologies: ["React", "Redux", "Redux-saga", "Ant Design", "Webpack", "PWA"],
+    previewType: "desctop",
   },
   {
     id: "eve",
     title: "EVE Admin",
     preview: "/eve/eve-preview.png",
     technologies: ["React", "Redux", "Redux-saga", "Material UI", "Webpack"],
+    previewType: "desctop",
   },
   {
     id: "raffle",
@@ -60,24 +63,28 @@ const works: Work[] = [
       "Webpack",
       "Rollup",
     ],
+    previewType: "desctop",
   },
   {
     id: "ding",
     title: "Ding Ding Ding",
     preview: "/dingdingding/ddd-homepage.png",
     technologies: ["HTML", "CSS", "JS", "Gulp"],
+    previewType: "desctop",
   },
   {
     id: "vichara",
     title: "Vichara",
     preview: "/vichara/vichara-preview.png",
     technologies: ["HTML", "CSS", "Tailwind CSS", "GSAP", "JS", "Gulp"],
+    previewType: "desctop",
   },
   {
     id: "happyBooking",
     title: "Happy Booking",
     preview: "/happy-booking/happy-booking-1.png",
     technologies: ["HTML", "CSS", "JS"],
+    previewType: "mobile",
   },
   {
     id: "movier",
@@ -85,6 +92,7 @@ const works: Work[] = [
     preview: "/movier/movier-preview.png",
     technologies: ["React", "MobX", "Material UI", "TMDb"],
     pet: true,
+    previewType: "desctop",
   },
   {
     id: "chichat",
@@ -92,6 +100,7 @@ const works: Work[] = [
     preview: "/chichat/chichat-1.png",
     technologies: ["React", "Redux", "Material UI", "Firebase", "Express", "MongoDB", "WebSocket"],
     pet: true,
+    previewType: "desctop",
   },
   {
     id: "qtalk",
@@ -109,6 +118,7 @@ const works: Work[] = [
       "Jest",
     ],
     pet: true,
+    previewType: "desctop",
   },
 ];
 

@@ -84,3 +84,18 @@
     @apply block text-body-2 mb-12 md:mb-16 text-center;
   }
 }
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  color: inherit;
+}
+@media screen and (max-width: 767px) {
+  .swiper .swiper-button-prev,
+  .swiper .swiper-button-next {
+    display: none;
+  }
+}
+.swiper .swiper-button-prev::after,
+.swiper .swiper-button-next::after {
+  font-size: 1.5rem;
+}

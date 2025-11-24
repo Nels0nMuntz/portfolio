@@ -19,9 +19,9 @@ export default function PulseUpModal() {
             <Image
               src="/pulseup/pulseup-preview.png"
               width={380}
-              height={700}
+              height={540}
               alt="preview"
-              className="static 2sm:relative md:static w-full max-w-[320px] mx-auto h-auto justify-self-center md:justify-self-auto order-2 md:order-none"
+              className="static 2sm:relative md:static w-full max-w-[320px] h-[580px] object-contain mx-auto justify-self-center md:justify-self-auto order-2 md:order-none"
               loading="eager"
             />
             <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left order-1 md:order-none">
@@ -102,7 +102,7 @@ export default function PulseUpModal() {
                   height={540}
                   src="/pulseup/pulseup-mobile-1.png"
                   alt="screenshot"
-                  className="w-full max-w-[240px] mx-auto h-auto"
+                  className="w-full max-w-[240px] mx-auto"
                   loading="eager"
                 />
               </SwiperSlide>
@@ -112,7 +112,7 @@ export default function PulseUpModal() {
                   height={540}
                   src="/pulseup/pulseup-mobile-2.png"
                   alt="screenshot"
-                  className="w-full max-w-[240px] mx-auto h-auto"
+                  className="w-full max-w-[240px] mx-auto"
                   loading="eager"
                 />
               </SwiperSlide>
@@ -122,7 +122,7 @@ export default function PulseUpModal() {
                   height={540}
                   src="/pulseup/pulseup-mobile-3.png"
                   alt="screenshot"
-                  className="w-full max-w-[240px] mx-auto h-auto"
+                  className="w-full max-w-[240px] mx-auto"
                   loading="eager"
                 />
               </SwiperSlide>
@@ -132,7 +132,7 @@ export default function PulseUpModal() {
                   height={540}
                   src="/pulseup/pulseup-mobile-4.png"
                   alt="screenshot"
-                  className="w-full max-w-[240px] mx-auto h-auto"
+                  className="w-full max-w-[240px] mx-auto"
                   loading="eager"
                 />
               </SwiperSlide>
@@ -142,7 +142,7 @@ export default function PulseUpModal() {
                   height={540}
                   src="/pulseup/pulseup-mobile-5.png"
                   alt="screenshot"
-                  className="w-full max-w-[240px] mx-auto h-auto"
+                  className="w-full max-w-[240px] mx-auto"
                   loading="eager"
                 />
               </SwiperSlide>
@@ -152,7 +152,7 @@ export default function PulseUpModal() {
                   height={540}
                   src="/pulseup/pulseup-mobile-6.png"
                   alt="screenshot"
-                  className="w-full max-w-[240px] mx-auto h-auto"
+                  className="w-full max-w-[240px] mx-auto"
                   loading="eager"
                 />
               </SwiperSlide>
@@ -192,7 +192,7 @@ export default function PulseUpModal() {
                   height={540}
                   src="/pulseup/pulseup-mobile-7.png"
                   alt="screenshot"
-                  className="w-full max-w-[240px] mx-auto h-auto"
+                  className="w-full max-w-[240px] mx-auto"
                   loading="eager"
                 />
               </SwiperSlide>

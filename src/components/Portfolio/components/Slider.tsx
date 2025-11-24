@@ -1,7 +1,8 @@
 import { Swiper } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import { PropsWithChildren } from "react";
 import { SwiperOptions } from "swiper/types";
+import "swiper/css/navigation";
 
 interface Props extends PropsWithChildren {
   autoplay?: SwiperOptions["autoplay"];
@@ -14,6 +15,7 @@ export default function Slider({ autoplay, children }: Props) {
       slidesPerView={1.35}
       centeredSlides={false}
       loop
+      navigation
       autoplay={
         autoplay === undefined
           ? {
@@ -22,7 +24,7 @@ export default function Slider({ autoplay, children }: Props) {
             }
           : autoplay
       }
-      modules={[Autoplay]}
+      modules={[Autoplay, Navigation]}
       speed={700}
       breakpoints={{
         768: {

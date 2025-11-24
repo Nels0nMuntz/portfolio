@@ -34,13 +34,6 @@ const works: Work[] = [
     previewType: "mobile",
   },
   {
-    id: "mcm",
-    title: "Mark Carroll Method",
-    preview: "/mcm/mcm-preview.png",
-    technologies: ["React", "Redux", "Redux-saga", "Ant Design", "Webpack", "PWA"],
-    previewType: "desctop",
-  },
-  {
     id: "eve",
     title: "EVE Admin",
     preview: "/eve/eve-preview.png",
@@ -63,6 +56,13 @@ const works: Work[] = [
       "Webpack",
       "Rollup",
     ],
+    previewType: "desctop",
+  },
+  {
+    id: "mcm",
+    title: "Mark Carroll Method",
+    preview: "/mcm/mcm-preview.png",
+    technologies: ["React", "Redux", "Redux-saga", "Ant Design", "Webpack", "PWA"],
     previewType: "desctop",
   },
   {

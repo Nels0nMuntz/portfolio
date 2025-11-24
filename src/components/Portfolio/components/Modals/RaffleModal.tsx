@@ -1,8 +1,8 @@
-import Image from "next/image";
 import { SwiperSlide } from "swiper/react";
 import { useModals, useModalsDispatch } from "@/contexts";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { DialogDesLink, DialogDescription, DialogHeading } from "@/components/Dialog/Dialog";
+import { Image } from "@/components/ui/image";
 import Slider from "../Slider";
 
 export default function RaffleModal() {
@@ -16,12 +16,21 @@ export default function RaffleModal() {
         <div className="h-[90vh] overflow-y-auto overflow-x-hidden">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-16 justify-center px-4 md:px-10 pt-8 bg-modal">
             <Image
-              src="/raffle/rh-2m.png"
               width={410}
-              height={700}
+              height={600}
+              sources={[
+                {
+                  src: "/raffle/rh-2m.avif",
+                  type: "image/avif",
+                },
+                {
+                  src: "/raffle/rh-2m.webp",
+                  type: "image/webp",
+                },
+              ]}
+              src="/raffle/rh-2m.png"
               alt="preview"
               className="static 2sm:relative md:static w-full max-w-lg h-auto max-h-[600px] object-contain justify-self-center md:justify-self-auto order-2 md:order-none ml-0 2sm:ml-0"
-              loading="eager"
             />
             <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left order-1 md:order-none">
               <DialogHeading>Raffle House</DialogHeading>
@@ -72,10 +81,19 @@ export default function RaffleModal() {
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/raffle/rh-1.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/raffle/rh-1.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/raffle/rh-1.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">
@@ -93,10 +111,19 @@ export default function RaffleModal() {
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/raffle/rh-2.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/raffle/rh-2.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/raffle/rh-2.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">
@@ -114,10 +141,19 @@ export default function RaffleModal() {
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/raffle/rh-3.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/raffle/rh-3.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/raffle/rh-3.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">
@@ -135,10 +171,19 @@ export default function RaffleModal() {
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/raffle/rh-4.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/raffle/rh-4.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/raffle/rh-4.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">
@@ -156,10 +201,19 @@ export default function RaffleModal() {
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/raffle/rh-5.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/raffle/rh-5.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/raffle/rh-5.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">
@@ -177,10 +231,19 @@ export default function RaffleModal() {
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/raffle/rh-6.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/raffle/rh-6.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/raffle/rh-6.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">
@@ -198,10 +261,19 @@ export default function RaffleModal() {
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/raffle/rh-7.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/raffle/rh-7.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/raffle/rh-7.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">
@@ -219,10 +291,19 @@ export default function RaffleModal() {
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/raffle/rh-8.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/raffle/rh-8.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/raffle/rh-8.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">
@@ -240,10 +321,19 @@ export default function RaffleModal() {
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/raffle/rh-9.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/raffle/rh-9.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/raffle/rh-9.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               {/* <SwiperSlide className="hidden sm:block">

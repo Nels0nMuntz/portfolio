@@ -1,8 +1,8 @@
-import Image from "next/image";
 import { SwiperSlide } from "swiper/react";
 import { useModals, useModalsDispatch } from "@/contexts";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { DialogDesLink, DialogDescription, DialogHeading } from "@/components/Dialog/Dialog";
+import { Image } from "@/components/ui/image";
 import Slider from "../Slider";
 
 export default function ChichatModal() {
@@ -47,50 +47,95 @@ export default function ChichatModal() {
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/chichat/chichat-1.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/chichat/chichat-1.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/chichat/chichat-1.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/chichat/chichat-2.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/chichat/chichat-2.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/chichat/chichat-2.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/chichat/chichat-3.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/chichat/chichat-3.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/chichat/chichat-3.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/chichat/chichat-4.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/chichat/chichat-4.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/chichat/chichat-4.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/chichat/chichat-5.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/chichat/chichat-5.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/chichat/chichat-5.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
             </Slider>

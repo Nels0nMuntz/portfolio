@@ -1,8 +1,8 @@
-import Image from "next/image";
 import { SwiperSlide } from "swiper/react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { useModals, useModalsDispatch } from "@/contexts";
 import { DialogDescription, DialogHeading } from "@/components/Dialog/Dialog";
+import { Image } from "@/components/ui/image";
 import Slider from "../Slider";
 
 export default function EveModal() {
@@ -24,7 +24,22 @@ export default function EveModal() {
                 to teach employees more about their health and enhance their overall well-being.
               </DialogDescription>
             </div>
-            <Image src="/eve/eve-2.png" width={768} height={590} alt="preview" />
+            <Image
+              sources={[
+                {
+                  src: "/eve/eve-2.avif",
+                  type: "image/avif",
+                },
+                {
+                  src: "/eve/eve-2.webp",
+                  type: "image/webp",
+                },
+              ]}
+              src="/eve/eve-2.png"
+              width={768}
+              height={590}
+              alt="preview"
+            />
             <DialogDescription className="text-left md:text-center ml-0 md:ml-auto">
               Implemented user authentication using Jwt Auth, data visualisation using various types
               of charts and tables with filtering, sorting and searching, import and export of data
@@ -37,90 +52,171 @@ export default function EveModal() {
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/eve/eve-1.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/eve/eve-1.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/eve/eve-1.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/eve/eve-2.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/eve/eve-2.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/eve/eve-2.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/eve/eve-3.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/eve/eve-3.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/eve/eve-3.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/eve/eve-4.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/eve/eve-4.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/eve/eve-4.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/eve/eve-5.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/eve/eve-5.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/eve/eve-5.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/eve/eve-6.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/eve/eve-6.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/eve/eve-6.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/eve/eve-7.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/eve/eve-7.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/eve/eve-7.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/eve/eve-8.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/eve/eve-8.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/eve/eve-8.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/eve/eve-9.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/eve/eve-9.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/eve/eve-9.png"
                   alt="screenshot"
                   className="w-full h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
             </Slider>

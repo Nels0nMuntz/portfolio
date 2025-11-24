@@ -1,8 +1,8 @@
-import Image from "next/image";
 import { SwiperSlide } from "swiper/react";
 import { useModals, useModalsDispatch } from "@/contexts";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { DialogDesLink, DialogDescription, DialogHeading } from "@/components/Dialog/Dialog";
+import { Image } from "@/components/ui/image";
 import Slider from "../Slider";
 
 export default function HappyBookingModal() {
@@ -16,12 +16,21 @@ export default function HappyBookingModal() {
         <div className="h-[90vh] overflow-y-auto overflow-x-hidden">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-16 justify-center px-4 md:px-10 pt-8 bg-modal">
             <Image
-              src="/happy-booking/happy-booking-11.png"
               width={410}
-              height={700}
+              height={600}
+              sources={[
+                {
+                  src: "/happy-booking/happy-booking-11.avif",
+                  type: "image/avif",
+                },
+                {
+                  src: "/happy-booking/happy-booking-11.webp",
+                  type: "image/webp",
+                },
+              ]}
+              src="/happy-booking/happy-booking-11.png"
               alt="preview"
               className="static 2sm:relative md:static w-full max-w-lg h-auto justify-self-center md:justify-self-auto order-2 md:order-none 2sm:ml-0"
-              loading="eager"
             />
             <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left order-1 md:order-none">
               <DialogHeading>Happy Booking</DialogHeading>
@@ -44,26 +53,54 @@ export default function HappyBookingModal() {
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/happy-booking/happy-booking-1.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/happy-booking/happy-booking-1.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/happy-booking/happy-booking-1.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/happy-booking/happy-booking-2.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/happy-booking/happy-booking-2.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/happy-booking/happy-booking-2.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/happy-booking/happy-booking-3.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/happy-booking/happy-booking-3.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/happy-booking/happy-booking-3.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
@@ -74,70 +111,133 @@ export default function HappyBookingModal() {
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/happy-booking/happy-booking-4.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/happy-booking/happy-booking-4.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/happy-booking/happy-booking-4.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/happy-booking/happy-booking-5.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/happy-booking/happy-booking-5.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/happy-booking/happy-booking-5.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/happy-booking/happy-booking-6.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/happy-booking/happy-booking-6.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/happy-booking/happy-booking-6.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/happy-booking/happy-booking-7.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/happy-booking/happy-booking-7.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/happy-booking/happy-booking-7.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/happy-booking/happy-booking-8.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/happy-booking/happy-booking-8.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/happy-booking/happy-booking-8.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/happy-booking/happy-booking-9.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/happy-booking/happy-booking-9.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/happy-booking/happy-booking-9.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
               <SwiperSlide className="hidden sm:block">
                 <Image
                   width={680}
                   height={540}
+                  sources={[
+                    {
+                      src: "/happy-booking/happy-booking-10.avif",
+                      type: "image/avif",
+                    },
+                    {
+                      src: "/happy-booking/happy-booking-10.webp",
+                      type: "image/webp",
+                    },
+                  ]}
                   src="/happy-booking/happy-booking-10.png"
                   alt="screenshot"
                   className="w-full max-w-[240px] mx-auto h-auto"
-                  loading="eager"
                 />
               </SwiperSlide>
             </Slider>

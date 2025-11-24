@@ -37,7 +37,7 @@ export default function DingModal() {
                 Ding Ding Ding is a free social casino website. Developed responsive, cross-browser
                 markups using HTML/CSS/JS.
               </DialogDescription>
-              <DialogDesLink href="https://dingdingding.com/">Open live site</DialogDesLink>
+              <DialogDesLink href="https://dingdingding-casino.com/">Open live site</DialogDesLink>
             </div>
           </div>
           <div className="pt-20 pb-14 pl-4 md:pl-0 bg-[#F8F9F9]">

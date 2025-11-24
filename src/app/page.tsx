@@ -1,4 +1,5 @@
 import React from "react";
+import type { Metadata } from "next";
 import {
   About,
   Contact,
@@ -7,6 +8,12 @@ import {
   Qualification,
   Skills,
 } from "@/components";
+
+export const metadata: Metadata = {
+  other: {
+    freelancehunt: "b160fcb0d065e22",
+  },
+};
 
 export default function Home() {
   return (
